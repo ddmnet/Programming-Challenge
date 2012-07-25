@@ -1,0 +1,9 @@
+who,language,correct,rough complexity, iterative/recursive, notes
+craig,python,yes,linear,iterative,none
+grant,c(+Ragel), yes (size limited),linear, iterative, Ragel-explain how it works
+jack,php,yes,linear,iterative, meh
+jon,php,sort of(lowercase xx is NOT XX), linear, iterative, fclose
+kris,obj-c, no(STDIN not supported), linear, iterative, didn't take input from STDIN
+matt,ruby, no(empty string != 0 [romans had no zero value], linear, iterative, SWEET banner
+paul,node.js,sort of(lowercase xx is NOT XX), linear, iterative, craps out on large inputs
+ryan,erlang, no(empty string != 0), i can't remember how to do recursion complexity, recursive, big inputs cause things to die because of recursion

@@ -20,9 +20,9 @@ XVII
 XVIII
 XVIV
 XX
-xx //bad
-iv //bad
-vi //bad
+xx
+iv
+vi
 XXVIIJUST KIDDING
 XVI
 VIX
