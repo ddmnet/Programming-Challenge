@@ -1,1 +1,31 @@
-Given this file (war_and_peace_X_10.txt), reverse every word in the file.  So "this is a string" would become "siht si a gnirts".
+Programming Challenge #2
+
+Problem Description:
+
+	Given a text file, reverse every word in the file.  For instance, the string
+	"Hi kids, I'm jack." would become "iH ,sdik m'I .kcaj".  To make life a little
+	easier, punctuation at the end of word (comma, period, etc) will be considered part
+	of the word.  If I decide to kill the program (ctrl+z, ctrl+d, etc), then file should 
+	revert to it's initial state.
+
+Output:
+	
+	The time in seconds, that it took to run. (ex: 10.01)
+	If the program exits via a signal, it should still output the time it took up to that
+	point, plus the time it took to revert the file.
+
+Notes:
+
+	- The absolute path to the file will be passed in as the first command line argument
+	- The text file may be large, small, or not exist.
+	- The file will be a regular text file, UTF-8.
+
+Judging:
+
+	The program will be judged by the following criteria.
+
+	- Correctness
+	- Time complexity
+	- Space complexity
+	- Execution speed
+	- Readability / Code Quality
