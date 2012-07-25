@@ -1,0 +1,1 @@
+Given this file (war_and_peace_X_10.txt), reverse every word in the file.  So "this is a string" would become "siht si a gnirts".
