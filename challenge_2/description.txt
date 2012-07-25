@@ -27,5 +27,8 @@ Judging:
 	- Correctness
 	- Time complexity
 	- Space complexity
-	- Execution time
 	- Readability / Code Quality
+
+For fun:
+
+	- Execution time
