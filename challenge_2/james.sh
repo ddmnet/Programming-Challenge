@@ -27,5 +27,5 @@ trap "on_exit" EXIT
 cp $FILE ".${FILE}.orig"
 
 # Cat the file into sed to reverse lines, run `rev` to reverse chars, then send output to file
-cat $FILE | sed '1!G;h;$!d' | rev | sed -e 's///g' > ".${FILE}.swp"
+cat $FILE | rev | perl -e 'print reverse <>' | sed -e 's///g' > ".${FILE}.swp"
 
