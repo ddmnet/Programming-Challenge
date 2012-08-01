@@ -1,0 +1,6 @@
+who,language,correct,rough time complexity, space complexity, time (small), time (big), notes
+craig,python,yes, linear, 2n, 0.02, 0.83, checking for file arg failed for me; what happens if file is 32mb 1 line file?
+grant,c, yes, n^2(?), in-place, 0.000007, 0.073, no notice if file doesn't exist(wasn't required, but still)
+jack,php, no [interrupt handler], n^2(?), in-place, 0.0015, 33.14, interrupt handlers in php suck ass
+jack,clojure, no, n^3 or so?, 2n, 0.15, 161.43, the larger the file the slower she goes.
+james,bash, no, ?, hard to tell with bash, 0.0ish, 1.0, not correct but a cool script anyways
