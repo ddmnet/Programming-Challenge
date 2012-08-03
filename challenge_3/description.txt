@@ -28,7 +28,7 @@ The input will be provided as a file, and there may be multiple board configurat
 
 Your output must state which king is in check for each board.
 
-No provided board will have both kings in check.  All boards will be 8x8.
+No provided board will have both kings in check.  All boards will be 8x8. Black (lowercase) always starts from the top of the board and moves down, white (uppercase) starts at the bottom and works up the board.
 
 Piece Characters:
 r/R = Rook.
