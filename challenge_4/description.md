@@ -20,6 +20,10 @@ Use the dictionary file provided by OS X: /usr/share/dict/words
 
 Both starting and ending words are guaranteed to be in the above dictionary.
 
+##Allowed Languages Restriction
+
+Your program can be written in any language you have not used in the previous programming challenges.
+
 ##Example
 
 	./werd_chainz.py cat dog
