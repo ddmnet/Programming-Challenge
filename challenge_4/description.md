@@ -18,7 +18,7 @@ The word conversion always happens between words of equal length. The starting w
 
 Use the dictionary file provided by OS X: /usr/share/dict/words
 
-Both stating and ending words are guaranteed to be in the above dictionary.
+Both starting and ending words are guaranteed to be in the above dictionary.
 
 ##Example
 
