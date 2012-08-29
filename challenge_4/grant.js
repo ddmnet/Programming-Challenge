@@ -11,8 +11,9 @@ function word_delta( a, b) {
 	return d;
 }
 
-function transform( start_word, end_word, source_words, history, history_limit ) {
+function transform( start_word, end_word, source_words, history, history_lut, history_limit ) {
 	var candidates = [];
+	var candidates_lut = {};
 
 	if( start_word.toString() == end_word) {
 		return history;
@@ -24,28 +25,11 @@ function transform( start_word, end_word, source_words, history, history_limit )
 
 	for( var x = 0; x < source_words.length; x ++ ) {
 		var sw = source_words[x];
-		if( start_word.length != sw.length ) {
-			continue;
-		}
 		var d = word_delta( start_word, sw);
 		if( d == 1 ) {
-			var alreadyInList = false;
-			for( var y = 0; y < candidates.length; y ++ ) {
-				if( sw.toString() == candidates[y].toString() ) {
-					alreadyInList = true;
-					break;					
-				}
-			}
-			if(!alreadyInList) {
-				for( var y = 0; y < history.length; y ++ ) {
-					if( sw.toString() == history[y] ) {
-						alreadyInList = true;
-						break;						
-					}
-				}
-			}
-			if(!alreadyInList) {
+			if(!( candidates_lut[sw.toString()] || history_lut[sw.toString()] )) {
 				candidates.push( sw );
+				candidates_lut[sw.toString()] = true;
 			}
 		}
 	}
@@ -53,7 +37,10 @@ function transform( start_word, end_word, source_words, history, history_limit )
 	for( var x = 0; x < candidates.length; x ++ ) {
 		var q = history.slice(0);
 		q.push( candidates[x].toString() );
-		var r = transform( candidates[x], end_word, source_words, q, history_limit );
+		var q_lut = {};
+		for( var i = 0; i < q.length; i ++ ) { q_lut[q[i]] = true; }
+
+		var r = transform( candidates[x], end_word, source_words, q, q_lut, history_limit );
 		if( r != null ) {
 			return r;			
 		}
@@ -86,12 +73,16 @@ fs.readFile(dictionaryFile, function(err, data){
 	// ruby code
 	// lead gold
 	// the end	
+	// apple mango
 
 
 	for( hl = 1; hl < 100; hl ++ ) {
-		var r = transform(Buffer(start_word), Buffer(end_word), buffer_words, [start_word], hl);
+		var history_lut = {};
+		history_lut[start_word] = true;
+
+		var r = transform(Buffer(start_word), Buffer(end_word), buffer_words, [start_word], history_lut, hl);
 		if( r != null ) {
-			console.log("Shortest chain at "+hl+" history length:", r);
+			//console.log("Shortest chain at "+hl+" history length:", r);
 			for( var i = 0; i < r.length; i ++ ) {
 				console.log(r[i]);
 			}

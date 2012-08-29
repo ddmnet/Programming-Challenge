@@ -1,0 +1,8 @@
+
+         dog cat        ruby code        lead gold        the end        apple mango  
+ryanc    0m0.497s       0m1.524s         0m1.586s         0m0.520s       0m4.570s
+grantj   0m0.191s       0m0.214s         0m0.273s         0m13.084s      DNF
+
+
+
+
