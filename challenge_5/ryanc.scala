@@ -15,7 +15,11 @@ object ryanc {
 		queue += ((start, Set[Int](start), MutableList[Int](start)))
 		while (!queue.isEmpty) {
 			val (number, parents, tree) = queue.dequeue
-			val newNumbers = MutableList[Int]( (number / 2), (number * 2), (number + 2) )
+			val newNumbers = MutableList[Int]( (number * 2), (number + 2) )
+			if ((number % 2) == 0) {
+				newNumbers += (number / 2)
+			}
+			
 			newNumbers foreach { newNumber =>
 				if (!parents.contains(newNumber)) {
 					val res = tree ++  MutableList[Int](newNumber)
