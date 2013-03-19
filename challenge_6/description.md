@@ -1,6 +1,6 @@
 ## Programming Challenge 6
 
-Given a source of words in the form of a text file, determine the number of dictionary words in the file.  Duplicates are counted.  Your output may be anything that you like, so long as the last two lines of it match the sample output below.
+Given a source of words in the form of a text file, determine the number of dictionary words in the file.  Duplicate words in the source text count towards the final word count.  Your output may be anything that you like, so long as the last two lines of it match the sample output below.
 
 ### Sample Input
 
@@ -35,3 +35,5 @@ Your program will be judged against the following criteria:
 ### Rules
 
 You are only allowed to use the same programming lanugage for every third challange.  For instance PHP -> Javascript -> Python -> PHP is OK.  Python -> Ruby -> Python is not.
+
+This is due by 1pm on 3/27.  Please push your submissions into the 'challenge_6' folder in the Programming-Challenge Github repo.
