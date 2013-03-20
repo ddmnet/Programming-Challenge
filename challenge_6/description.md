@@ -9,12 +9,13 @@ This is an example test input example test notactuallyaword.
 ### Sample Output (using /usr/share/dict/words as dictionary source)
 
 Words: 8
-Time: 15
+Time: 15 [in seconds]
 
 ### Input File
 
-Located at: http://www.re-cycledair.com/wp-content/uploads/2013/03/programming_challenge_6_source.txt
+A copy is located at: http://www.re-cycledair.com/wp-content/uploads/2013/03/programming_challenge_6_source.txt
 Roughly 928k words.
+When your program is run, the file 'programming_challenge_6_source.txt' will be in the same directory (or you can pass the path in as a command line arg).
 
 ### Dictionary File
 
