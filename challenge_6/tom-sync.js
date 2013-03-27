@@ -12,7 +12,7 @@ var assocFromDictionary = {};
 
 var fs = require('fs');
 // Text file
-var arrayFromText = fs.readFileSync('programming_challenge_6_source.txt', 'utf8').toString().split(/[\s]/);
+var arrayFromText = fs.readFileSync('programming_challenge_6_source.txt', 'utf8').toString().split(/\s/);
 var arrayFromTextLength = arrayFromText.length;
 for(var i=0; i < arrayFromTextLength; i++) {
 	if (typeof assocFromText[arrayFromText[i]] != 'undefined'){
@@ -32,8 +32,7 @@ for(var j=0; j < arrayFromDictionaryLength; j++) {
 }
 
 for(var key in assocFromText){
-	console.log(assocFromDictionary[key]);
-	if (typeof assocFromDictionary[key] != 'undefined'){
+	if (typeof assocFromDictionary[key] != 'undefined' && key !== ""){
 		wordCount=wordCount+assocFromText[key];
 	}
 }
