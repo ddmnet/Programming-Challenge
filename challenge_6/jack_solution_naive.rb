@@ -37,7 +37,7 @@ end
 
 # Get the chunk size, and then spawn enough threads to accomodate the
 # number of chunks.
-chunk_size = (ARGV[0].nil?) ? 2000 : ARGV[0].to_i
+chunk_size = (ARGV[0].nil?) ? 130000 : ARGV[0].to_i
 threads = []
 all_words.each_slice(chunk_size) do |slice|
   threads << Thread.new { process_words(slice, dictionary) }
