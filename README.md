@@ -10,6 +10,6 @@ DDM Interactive Programming Challenge Submissions
 4. Write a program that solves word-chain puzzles.
 5. NUMERIC MAZE
 6. Given a source of words in the form of a text file, determine the number of dictionary words in the file.
-
+7. The ABACABA sequence
 
 
