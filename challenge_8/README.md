@@ -32,4 +32,4 @@ Your program will be judged against the following criteria:
 
 You are only allowed to use the same programming language for every third challenge.  For instance PHP -> Javascript -> Python -> PHP is OK.  Python -> Ruby -> Python is not.
 
-This is due by the end of the day on 4/19. Please push your submissions into the 'challenge_8' folder in the Programming-Challenge Github repo.
+This is due by the end of the day on 4/26. Please push your submissions into the 'challenge_8' folder in the Programming-Challenge Github repo.
