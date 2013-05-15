@@ -26,7 +26,6 @@ class MaxSumSolver
 	end
 
 	private
-		#called by max_sum only
 		def process_input
 			rows = Array.new
 			File.open(@filename).readlines.each_with_index do |row, index|
