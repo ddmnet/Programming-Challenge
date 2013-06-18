@@ -3,7 +3,7 @@ Challenge #9
 
 ## Description
 
-** Do it in a language you've never used before!
+** Do it in a language you've never used before! Or not, it's up to you.
 
 Implement a Vigenère Cipher, a simple form of polyalphabetic substitution[1], to encrypt a simple alphabetic message.
 
@@ -29,7 +29,5 @@ Your program will be judged against the following criteria:
 
 
 ### Rules
-
-You are only allowed to use the same programming language for every third challenge.  For instance PHP -> Javascript -> Python -> PHP is OK.  Python -> Ruby -> Python is not.
 
 This is due by the end of the day on 6/26. Please push your submissions into the 'challenge_9' folder in the Programming-Challenge Github repo.
