@@ -12,4 +12,5 @@ DDM Interactive Programming Challenge Submissions
 6. Given a source of words in the form of a text file, determine the number of dictionary words in the file.
 7. The ABACABA sequence
 8. Maximum path sum
+9. Vigenère Cipher
 
