@@ -15,21 +15,21 @@ So, for example:
 
 Input: 2
 Output:
-       /\
-      /__\
-     /\  /\
-    /__\/__\
+&nbsp;&nbsp;&nbsp;&nbsp;/\
+&nbsp;&nbsp;&nbsp;/__\
+&nbsp;&nbsp;/\  /\
+&nbsp;/__\/__\
 
 Input: 3
 Output:
-           /\
-          /__\
-         /\  /\
-        /__\/__\
-       /\      /\
-      /__\    /__\
-     /\  /\  /\  /\
-    /__\/__\/__\/__\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/__\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\  /\
+&nbsp;&nbsp;&nbsp;&nbsp;/__\/__\
+&nbsp;&nbsp;&nbsp;/\      /\
+&nbsp;&nbsp;/__\    /__\
+&nbsp;/\  /\  /\  /\
+/__\/__\/__\/__\
 
 
 And, so on...
@@ -42,7 +42,7 @@ But keep in mind, your triangles do not need this exact structure. Have some fun
 
 Your program will be judged against the following criteria:
 
-	1. Do your triangles have Sierpenski Triangle form?
+	1. Does your triangle have Sierpenski Triangle form?
 	2. Number of characters of code
 
 ### Rules
