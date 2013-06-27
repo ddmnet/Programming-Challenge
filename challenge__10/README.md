@@ -1,0 +1,50 @@
+Challenge #10
+============
+
+## Description
+
+** Do it in a language you've never used before! Or not, it's up to you.
+
+Write a program that prints out the Sierpinski Triangle as ASCII art.
+
+Your program should take one arguments:
+	
+	1. The number of triangle iterations
+
+So, for example: 
+
+Input: 2
+Output:
+       /\
+      /__\
+     /\  /\
+    /__\/__\
+
+Input: 3
+Output:
+           /\
+          /__\
+         /\  /\
+        /__\/__\
+       /\      /\
+      /__\    /__\
+     /\  /\  /\  /\
+    /__\/__\/__\/__\
+
+
+And, so on...
+
+But keep in mind, your triangles do not need this exact structure. Have some fun with it. Creativitiy is not your enemy.
+
+[1] : http://en.wikipedia.org/wiki/Sierpinski_triangle
+
+## Judging
+
+Your program will be judged against the following criteria:
+
+	1. Do your triangles have Sierpenski Triangle form?
+	2. Number of characters of code
+
+### Rules
+
+This is due by the end of the day on 7/10. Please push your submissions into the 'challenge__10' folder in the Programming-Challenge Github repo.

@@ -13,4 +13,4 @@ DDM Interactive Programming Challenge Submissions
 7. The ABACABA sequence
 8. Maximum path sum
 9. Vigenère Cipher
-
+10. Sierpinski's Triangle ASCII art
