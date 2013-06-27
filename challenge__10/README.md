@@ -15,21 +15,21 @@ So, for example:
 
 Input: 2
 Output:
-&nbsp;&nbsp;&nbsp;&nbsp;/\
-&nbsp;&nbsp;&nbsp;/__\
-&nbsp;&nbsp;/\  /\
-&nbsp;/__\/__\
+&nbsp;&nbsp;&nbsp;&nbsp;/\<br />
+&nbsp;&nbsp;&nbsp;/__\<br />
+&nbsp;&nbsp;/\  /\<br />
+&nbsp;/__\/__\<br />
 
 Input: 3
 Output:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/__\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\  /\
-&nbsp;&nbsp;&nbsp;&nbsp;/__\/__\
-&nbsp;&nbsp;&nbsp;/\      /\
-&nbsp;&nbsp;/__\    /__\
-&nbsp;/\  /\  /\  /\
-/__\/__\/__\/__\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/__\<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\  /\<br />
+&nbsp;&nbsp;&nbsp;&nbsp;/__\/__\<br />
+&nbsp;&nbsp;&nbsp;/\      /\<br />
+&nbsp;&nbsp;/__\    /__\<br />
+&nbsp;/\  /\  /\  /\<br />
+/__\/__\/__\/__\<br />
 
 
 And, so on...
