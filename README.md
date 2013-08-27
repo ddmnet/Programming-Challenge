@@ -14,3 +14,4 @@ DDM Interactive Programming Challenge Submissions
 8. Maximum path sum
 9. Vigenère Cipher
 10. Sierpinski's Triangle ASCII art
+11. Analyze the poker hand
