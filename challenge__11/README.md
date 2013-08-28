@@ -44,4 +44,4 @@ Entries will be judged on:
  - Speed (time 1000x runs of the program)
 
 You may use any language to complete this task. (Although _Code Clarity_
-may be improved by choosing not-_bash_.)
+may be improved by choosing not-bash.)
